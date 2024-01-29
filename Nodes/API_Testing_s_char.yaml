@@ -1,0 +1,194 @@
+Name: API_Testing_s_char
+Type: ProjectFolder
+Children:
+- Name: PasswordPolicy
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: EnforcePasswordHistory
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 1
+  - Name: MinimumPasswordAge
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MinimumPasswordLength
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 8
+- Name: ReturnKnownNodes
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: ReturnNodesTest
+- Name: ReturnNodesBySearch
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: ReturnNodesSearchTest
+- Name: AddRemoveNodes
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: RemoveLabel
+  - Class: Method
+    Name: RemoveUIFolder
+  - Class: Method
+    Name: AddNodes
+  - Class: Method
+    Name: RemovePanel
+- Name: ObjectCreation
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateObjects
+  - Class: Method
+    Name: CleanUp
+- Name: VariableCreation
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateVariables
+  - Class: Method
+    Name: CleanUp
+- Name: ReadWriteFieldVariables
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: ReadWriteVariables
+  - Class: Method
+    Name: CleanUp
+- Name: SyncFieldVariablesDT
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: SyncVariables
+- File: StaticObjects/StaticObjects.yaml
+- Name: SyncFieldVarablesRT
+  Type: NetLogic
+- Name: LogMessages
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: GenerateLogMessages
+- Name: DynamicLinks
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: GenerateDynamicLinks
+  - Class: Method
+    Name: CleanUp
+  - Class: Method
+    Name: ResetDynamicLinks
+- Name: Aliases
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CleanUp
+  - Class: Method
+    Name: GenerateAliases
+  - Name: Motor
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/API_Testing_s_char/StaticObjects/EngineMotor"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/API_Testing_s_char/StaticObjects/Motor"
+- Name: ResourcePaths
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: ResourcePathsTest
+  - Class: Method
+    Name: CleanUp
+- Name: Translations
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: TranslationsTest
+  - Class: Method
+    Name: CleanUp
+- File: NetLogic/NetLogic.yaml
+- Name: Authentication
+  Type: PropertyGroup
+  Children:
+  - Name: AuthenticationMode
+    Type: PropertyType
+    DataType: AuthenticationMode
+- Name: AlarmConfiguration
+  Type: PropertyGroup
+  Children:
+  - Name: BranchingEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+- Name: Localization
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US","it-IT","pl-PL"]
+  - Name: LocaleFallbackList
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+- File: Objectsçãçã/Objectsçãçã.yaml

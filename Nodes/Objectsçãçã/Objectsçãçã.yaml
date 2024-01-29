@@ -1,0 +1,17 @@
+Name: Objectsçãçã
+Type: FolderType
+Children:
+- Name: MotorObjectçãçã
+  Type: BaseObjectType
+- Name: Motor1çãçã
+  Id: g=caf85f8ac5e442908fac22c159481327
+  Supertype: BaseObjectType
+- Name: NewMotorçãçã
+  Type: Motor1çãçã
+- Name: SpecialMotorçãçã
+  Id: g=4fb79e7fa2b54bcb97d7673231aafcce
+  Supertype: Motor1çãçã
+- Name: NewLabelType
+  Id: g=16f078f3d83047249b45cf3b38215bcb
+  Supertype: Label
+  ReferenceType: HasComponent

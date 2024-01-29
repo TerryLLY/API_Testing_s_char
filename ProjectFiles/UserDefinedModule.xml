@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module version="1">
+    <Name>API_Testing_s_charUserDefinedModule</Name>
+    <Company></Company>
+    <Version>0.0.0</Version>
+    <MinUpgradableVersion>0.0.0</MinUpgradableVersion>
+    <Binding name="Net" />
+
+    <Namespaces/>
+
+    <Dependencies>
+        <Core version="0.0.0" />
+        <Binding version="0.0.0" />
+        <Module name="FTOptix.HMIProject.Net" version="0.0.0" />
+    </Dependencies>
+
+    <Nodes/>
+
+    <TypeMappings>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="API_Testing_s_char" guid="4fb79e7fa2b54bcb97d7673231aafcce" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="API_Testing_s_char" guid="50ff94ca9e12d84b82fddfbb810415cf" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="API_Testing_s_char" guid="f88ba0e192408c06ade69a194920ab81" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="API_Testing_s_char" guid="caf85f8ac5e442908fac22c159481327" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="API_Testing_s_char" guid="87e224047336be37d730f21ae869979e" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="API_Testing_s_char" guid="16f078f3d83047249b45cf3b38215bcb" />
+            </TargetType>
+        </TypeMapping>
+    </TypeMappings>
+</Module>

@@ -1,0 +1,12 @@
+C:\çãçã\project\API_Testing_s_char\ProjectFiles\NetSolution\bin\API_Testing_s_char.deps.json
+C:\çãçã\project\API_Testing_s_char\ProjectFiles\NetSolution\bin\API_Testing_s_char.dll
+C:\çãçã\project\API_Testing_s_char\ProjectFiles\NetSolution\bin\API_Testing_s_char.pdb
+C:\çãçã\project\API_Testing_s_char\ProjectFiles\NetSolution\obj\Debug\API_Testing_s_char.csproj.AssemblyReference.cache
+C:\çãçã\project\API_Testing_s_char\ProjectFiles\NetSolution\obj\Debug\API_Testing_s_char.GeneratedMSBuildEditorConfig.editorconfig
+C:\çãçã\project\API_Testing_s_char\ProjectFiles\NetSolution\obj\Debug\API_Testing_s_char.AssemblyInfoInputs.cache
+C:\çãçã\project\API_Testing_s_char\ProjectFiles\NetSolution\obj\Debug\API_Testing_s_char.AssemblyInfo.cs
+C:\çãçã\project\API_Testing_s_char\ProjectFiles\NetSolution\obj\Debug\API_Testing_s_char.csproj.CoreCompileInputs.cache
+C:\çãçã\project\API_Testing_s_char\ProjectFiles\NetSolution\obj\Debug\API_Testing_s_char.dll
+C:\çãçã\project\API_Testing_s_char\ProjectFiles\NetSolution\obj\Debug\refint\API_Testing_s_char.dll
+C:\çãçã\project\API_Testing_s_char\ProjectFiles\NetSolution\obj\Debug\API_Testing_s_char.pdb
+C:\çãçã\project\API_Testing_s_char\ProjectFiles\NetSolution\obj\Debug\ref\API_Testing_s_char.dll
